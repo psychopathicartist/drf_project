@@ -1,0 +1,50 @@
+[
+  {
+    "model": "users.payment",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "payment_date": "2024-05-17",
+      "payed_course": 1,
+      "payed_lesson": null,
+      "payment_amount": 40000,
+      "payment_method": "Перевод на счет"
+    }
+  },
+  {
+    "model": "users.payment",
+    "pk": 2,
+    "fields": {
+      "user": 3,
+      "payment_date": "2024-05-16",
+      "payed_course": 2,
+      "payed_lesson": null,
+      "payment_amount": 50000,
+      "payment_method": "Наличные"
+    }
+  },
+  {
+    "model": "users.payment",
+    "pk": 3,
+    "fields": {
+      "user": 4,
+      "payment_date": "2024-05-17",
+      "payed_course": null,
+      "payed_lesson": 1,
+      "payment_amount": 2000,
+      "payment_method": "Перевод на счет"
+    }
+  },
+  {
+    "model": "users.payment",
+    "pk": 4,
+    "fields": {
+      "user": 4,
+      "payment_date": "2024-05-16",
+      "payed_course": null,
+      "payed_lesson": 3,
+      "payment_amount": 5000,
+      "payment_method": "Перевод на счет"
+    }
+  }
+]
