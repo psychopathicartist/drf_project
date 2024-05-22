@@ -3,44 +3,62 @@
     "model": "users.user",
     "pk": 1,
     "fields": {
-      "password": "123456",
+      "password": "pbkdf2_sha256$720000$RNTpVfY6Bic8kvKvtWNj2C$bOKLr5HnQUXI3E8iRZ4eaFYbOnMYqn2ZjSieHrx2qe0=",
+      "last_login": "2024-05-22T20:21:04Z",
       "is_superuser": true,
+      "first_name": "",
+      "last_name": "",
       "is_staff": true,
       "is_active": true,
+      "date_joined": "2024-05-16T21:53:22Z",
       "email": "admin@myapp.ru",
+      "phone": null,
+      "town": null,
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
     }
   },
   {
     "model": "users.user",
-    "pk": 2,
+    "pk": 8,
     "fields": {
-      "password": "123",
+      "password": "pbkdf2_sha256$720000$UaTsgbIq9yVrloyrbkoq7F$KoSUgTQNOFf5Nq6yzjbhMFDzEqs9Ult19xiaznvtqpo=",
+      "last_login": null,
       "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
       "is_staff": false,
       "is_active": true,
+      "date_joined": "2024-05-22T21:17:53.843Z",
+      "email": "users@myapp.ru",
+      "phone": null,
+      "town": null,
+      "avatar": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 9,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$uByygAFfNV1L6q50PJt0T5$qJJxYk4D5XzclIqjuWuYFDwSh0xpnPm4XrWUfVCeVyc=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "",
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-05-22T21:18:47Z",
       "email": "user@myapp.ru",
-    }
-  },
-  {
-    "model": "users.user",
-    "pk": 3,
-    "fields": {
-      "password": "123",
-      "is_superuser": false,
-      "is_staff": false,
-      "is_active": true,
-      "email": "user2@myapp.ru",
-    }
-  },
-  {
-    "model": "users.user",
-    "pk": 4,
-    "fields": {
-      "password": "123",
-      "is_superuser": false,
-      "is_staff": false,
-      "is_active": true,
-      "email": "user3@myapp.ru",
+      "phone": null,
+      "town": null,
+      "avatar": "",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
     }
   }
 ]
