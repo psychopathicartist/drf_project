@@ -15,6 +15,7 @@ django-phonenumbers = "^1.0.1"
 pillow = "^10.3.0"
 django = "^5.0.6"
 django-filter = "^24.2"
+djangorestframework-simplejwt = "^5.3.1"
 
 
 [build-system]
